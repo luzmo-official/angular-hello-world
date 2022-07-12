@@ -8,6 +8,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class AppComponent {
   dashboardId='DASHBOARD_ID_HERE';
+  appServer='APP_SERVER_HERE';
+  apiHost='API_HOST_HERE';
   key?: string;
   token?: string;
 
